@@ -1,0 +1,21 @@
+.menu {
+  background-color: #000;
+  .menu__content {
+    margin: 25px 0;
+    .menu__item {
+      .menu__text {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 86px;
+        padding: 0 20px;
+        span {
+          color: #c7a17a;
+          font-size: 25px;
+          display: inline-block;
+          margin-left: 100px;
+        }
+      }
+    }
+  }
+}

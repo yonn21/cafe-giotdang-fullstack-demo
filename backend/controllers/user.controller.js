@@ -51,7 +51,7 @@ const login = async (req, res) => {
             id: user.id,
             email: user.email,
             type: user.type
-        }, 'anh2..cafe-GiotDANG6969!!!!!!', { expiresIn: 60 * 60 * 24 }, { algorithm: 'HS256' }, (err, token) => {
+        }, 'anh2..cafe-GiotDANG6969!!!!!!', { expiresIn: 60 * 60 }, { algorithm: 'HS256' }, (err, token) => {
             if (err) {
                 res.status(500).json({
                     message: 'Something went wrong',
@@ -63,6 +63,19 @@ const login = async (req, res) => {
         res.status(200).json({
             message: 'Login success',
             token
+        })
+    } catch (error) {
+        res.status(500).json({
+            message: 'Something went wrong',
+            error
+        })
+    }
+}
+
+const logout = async (req, res) => {
+    try {
+        res.status(200).json({
+            message: 'Logout success'
         })
     } catch (error) {
         res.status(500).json({
@@ -511,6 +524,7 @@ const resetTable = async (req, res) => {
 module.exports = {
     register,
     login,
+    logout,
     getAllUser,
     getDetailUser,
     updateUser,

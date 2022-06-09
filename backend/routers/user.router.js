@@ -12,6 +12,7 @@ const {
 const {
     register,
     login,
+    logout,
     getAllUser,
     getDetailUser,
     updateUser,
@@ -31,6 +32,7 @@ const userRouter = express.Router()
 
 userRouter.post('/register', register)
 userRouter.post('/login', login)
+userRouter.get('/logout', authenticate, logout)
 
 userRouter.get('/users/get-all', authenticate, authorizeAdmin, getAllUser)
 userRouter.get('/users/:id/get-detail', authenticate, authorizeUserIdOrAdmin, getDetailUser)

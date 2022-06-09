@@ -12,8 +12,9 @@ app.use(express.static(publicPathDirectory))
 
 app.use('/', rootRouter)
 
-app.listen(6969, async () => {
-    console.log('http://localhost:6969')
+const port = process.env.PORT || 2108
+app.listen(port, async () => {
+    console.log(`http://localhost:${port}`)
     try {
         await sequelize.authenticate()
         console.log('Connection has been established successfully.')

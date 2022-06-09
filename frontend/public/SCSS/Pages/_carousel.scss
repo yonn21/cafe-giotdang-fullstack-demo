@@ -1,0 +1,22 @@
+.carousel {
+    background-image: url(../img/hero-img-3-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    .carousel__inner {
+        h1 {
+            font-size: 60px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+        }
+        p {
+            color: #a7a7a7;
+            font-size: 18px;
+        }
+        .carousel__btn {
+            margin-top: 45px;
+        }
+    }
+}
