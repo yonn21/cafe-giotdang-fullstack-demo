@@ -76,6 +76,7 @@
 							>Name</label
 						>
 						<input
+							id="name"
 							type="text"
 							class="form-control"
 							id="exampleInputName"
@@ -86,6 +87,7 @@
 							>Phone</label
 						>
 						<input
+							id="phoneNumber"
 							type="text"
 							class="form-control"
 							id="exampleInputPhone"
@@ -96,6 +98,7 @@
 							>Email address</label
 						>
 						<input
+							id="email"
 							type="email"
 							class="form-control"
 							id="exampleInputEmail1"
@@ -108,13 +111,14 @@
 							>Password</label
 						>
 						<input
+							id="password"
 							type="password"
 							class="form-control"
 							id="exampleInputPassword1"
 						/>
 					</div>
 					<div class="mt-4 text-center">
-						<button type="submit" class="btn">Submit</button>
+						<button id="register" type="submit" class="btn">Submit</button>
 					</div>
 				</form>
 			</div>
@@ -160,5 +164,7 @@
 		<!-- boostraps -->
 		<script src="./js/bootstrap.bundle.min.js"></script>
 		<script src="./js/bootstrap.min.js"></script>
+		<script src="../node_modules/axios/dist/axios.min.js"></script>
+		<script src="../account.js" type="module"></script>
 	</body>
 </html>
