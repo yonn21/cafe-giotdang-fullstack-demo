@@ -1,0 +1,13 @@
+.account {
+    .account__inner {
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            .account__icon {
+                label {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

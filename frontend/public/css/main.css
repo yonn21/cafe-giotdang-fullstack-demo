@@ -1,1 +1,141 @@
-body{margin:0;padding:0;color:#333;font-weight:300;font-family:"Jost",sans-serif;line-height:29px;font-weight:400}html{font-size:16px}div{box-sizing:border-box}.padding-tb{padding:80px 0}.btn{font-size:12px;text-transform:uppercase;color:#fff;letter-spacing:2px;background:#c7a17a;padding:9.5px 34px;text-decoration:none;border-radius:5px;position:relative;z-index:1;display:inline-block;border:1px solid #c7a17a;font-weight:500;line-height:29px;margin:0 10px}header{background-color:#000}header .navbar-nav .nav-link{color:#fff;margin:0 40px;padding:20px 10px}.carousel{background-image:url(../img/hero-img-3-1.jpeg);background-size:cover;background-repeat:no-repeat;height:900px}.carousel .carousel__inner h1{font-size:60px;font-weight:700;color:#fff;margin-bottom:30px;text-transform:capitalize}.carousel .carousel__inner p{color:#a7a7a7;font-size:18px}.carousel .carousel__inner .carousel__btn{margin-top:45px}.intro{background-color:#000}.intro .item{margin:0 25px}.intro .item img{width:100%;height:100%}.menu{background-color:#000}.menu .menu__content{margin:25px 0}.menu .menu__content .menu__item .menu__text{color:#fff;font-size:20px;font-weight:bold;line-height:86px;padding:0 20px}.menu .menu__content .menu__item .menu__text span{color:#c7a17a;font-size:25px;display:inline-block;margin-left:100px}/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-weight: 300;
+  font-family: "Jost", sans-serif;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+html {
+  font-size: 16px;
+}
+
+div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.padding-tb {
+  padding: 80px 0;
+}
+
+.btn {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  background: #C7A17A;
+  padding: 9.5px 34px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  border: 1px solid #C7A17A;
+  font-weight: 500;
+  line-height: 29px;
+  margin: 0 10px;
+}
+
+header {
+  background-color: black;
+}
+
+header .navbar-nav .nav-link {
+  color: #fff;
+  margin: 0 40px;
+  padding: 20px 10px;
+}
+
+footer {
+  background-color: #000;
+  border-top: 1px solid #fff;
+}
+
+footer .ft__top .ft__item {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+footer .ft__top .ft__item i {
+  color: #C7A17A;
+}
+
+footer .ft__bottom .ft__bt__item {
+  color: #fff;
+  line-height: 78px;
+  font-size: 18px;
+}
+
+.carousel {
+  background-image: url(../img/hero-img-3-1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+
+.carousel .carousel__inner h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.carousel .carousel__inner p {
+  color: #a7a7a7;
+  font-size: 18px;
+}
+
+.carousel .carousel__inner .carousel__btn {
+  margin-top: 45px;
+}
+
+.intro {
+  background-color: #000;
+}
+
+.intro .item {
+  margin: 0 25px;
+}
+
+.intro .item img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  background-color: #000;
+}
+
+.menu .menu__content {
+  margin: 25px 0;
+}
+
+.menu .menu__content .menu__item .menu__text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 86px;
+  padding: 0 20px;
+}
+
+.menu .menu__content .menu__item .menu__text span {
+  color: #c7a17a;
+  font-size: 25px;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.account .account__inner form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.account .account__inner form .account__icon label {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
