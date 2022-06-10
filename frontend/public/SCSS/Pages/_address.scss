@@ -1,0 +1,11 @@
+.address {
+    background-color: #000;
+    border-top: 1px solid #fff;
+    .address__item {
+        margin: 25px 0;
+        .address__text {
+            color: #fff;
+            padding: auto 0;
+        }
+    }
+}

@@ -138,4 +138,18 @@ footer .ft__bottom .ft__bt__item {
 .account .account__inner form .account__icon label {
   color: #fff;
 }
+
+.address {
+  background-color: #000;
+  border-top: 1px solid #fff;
+}
+
+.address .address__item {
+  margin: 25px 0;
+}
+
+.address .address__item .address__text {
+  color: #fff;
+  padding: auto 0;
+}
 /*# sourceMappingURL=main.css.map */
